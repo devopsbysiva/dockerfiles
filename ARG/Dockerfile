@@ -4,7 +4,7 @@
 ARG version=9
 FROM almalinux:$version  
 # for using a default value can be menrioned as ${version: -9}
-RUN echo "version: ${veraion}"  # the value version is not passed here. ARG value if mentioned before from. it is valid until from
+RUN echo "version: ${version}"  # the value version is not passed here. ARG value if mentioned before from. it is valid until from
 CMD ["sleep", "100"]  #this will run the conatainer up for 100 sec.
 
 
