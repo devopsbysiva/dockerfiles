@@ -24,5 +24,4 @@ systemctl start docker
 systemctl status docker
 
 usermod -aG docker ec2-user
-
 exit
