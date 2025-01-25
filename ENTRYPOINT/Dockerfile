@@ -1,7 +1,7 @@
 FROM almalinux:9
-#CMD ["ping","google.com"]
-CMD ["google.com"]
-ENTRYPOINT ["ping"]
+CMD ["ping","google.com"]
+# CMD ["google.com"]
+# ENTRYPOINT ["ping"]
 
 #Entrypoint is does the same as CMD instruction.The Only difference is Entrypoint cannot be override.
 #for best practice these can be used together. the arguments passed to cmd can be passed to entrypoint as a default value.
